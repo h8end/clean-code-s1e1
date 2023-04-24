@@ -22,7 +22,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -46,16 +46,16 @@
 }
 
 .main__task-list{
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task-list__task, .task-list__title {
-  list-style:none;
+  list-style: none;
 }
 
 .task__input, .task__checkbox,.task__button_common, .task__button_delete{
-  outline:none;
+  outline: none;
 }
 .task__button_common, .task__button_delete {
   background: none;
@@ -165,13 +165,13 @@
 /* Edit Task */
 
 .task__input, task__label{
-  display:none
+  display: none
 }
 
 .edit-mode .task__input{
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 .edit-mode .task__label {
-  display:none;
+  display: none;
 }
